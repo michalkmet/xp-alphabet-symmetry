@@ -22,7 +22,7 @@ Pomodoro 1:
 - ✅ UAT1.1: User can pass ["a"], it should return [1] 
 - ✅ UAT1.2: User can pass ["b"], it should return [0] 
 - ✅ UAT1.3: User can pass ["ab"], it should return [2] 
-- ⚠ TODO UAT1.4: User can pass ["bb"], it should return [1]
+- ✅ UAT1.4: User can pass ["bb"], it should return [1]
 - ⚠ TODO UAT1.5: User can pass ["bc"], it should return [0]
 - ⚠ TODO UAT1.6: User can pass ["abc"], it should return [3]
 - ⚠ TODO UAT1.7: User can pass ["abcd"], it should return [4]
