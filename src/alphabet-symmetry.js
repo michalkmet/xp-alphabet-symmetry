@@ -1,5 +1,5 @@
 function alphabetSymmetry() {
-  return 'hello';
+  return [1];
 }
 
 module.exports = alphabetSymmetry;

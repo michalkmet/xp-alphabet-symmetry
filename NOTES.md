@@ -18,4 +18,12 @@ Input will consist of alphabet characters, both uppercase and lowercase. No spac
 
 Pomodoro 1:
 - ✅ Initial Refactor
-- 🚧 TODO User Stories
+- ✅ User Stories
+- ✅ UAT1.1: User can pass ["a"], it should return [1] 
+- ⚠ TODO UAT1.2: User can pass ["b"], it should return [0] 
+- ⚠ TODO UAT1.3: User can pass ["ab"], it should return [2] 
+- ⚠ TODO UAT1.4: User can pass ["bb"], it should return [1]
+- ⚠ TODO UAT1.5: User can pass ["bc"], it should return [0]
+- ⚠ TODO UAT1.6: User can pass ["abc"], it should return [3]
+- ⚠ TODO UAT1.7: User can pass ["abcd"], it should return [4]
+- ⚠ TODO UAT1.8: User can pass ["heyD"], it should return [1]

@@ -17,21 +17,21 @@ Input will consist of alphabet characters, both uppercase and lowercase. No spac
 ## Backlog
 
 Story 1: User can pass one word in array, it will return number of letters at the same position in the world as they have in the alphabet 
-- ⚠ TODO UAT1.1: User can pass ['a'], it should return [1] 
-- ⚠ TODO UAT1.2: User can pass ['b'], it should return [0] 
-- ⚠ TODO UAT1.3: User can pass ['ab'], it should return [2] 
-- ⚠ TODO UAT1.4: User can pass ['bb'], it should return [1]
-- ⚠ TODO UAT1.5: User can pass ['bc'], it should return [0]
-- ⚠ TODO UAT1.6: User can pass ['abc'], it should return [3]
-- ⚠ TODO UAT1.7: User can pass ['abcd'], it should return [4]
-- ⚠ TODO UAT1.8: User can pass ['heyD'], it should return [1]
+- ⚠ TODO UAT1.1: User can pass ["a"], it should return [1] 
+- ⚠ TODO UAT1.2: User can pass ["b"], it should return [0] 
+- ⚠ TODO UAT1.3: User can pass ["ab"], it should return [2] 
+- ⚠ TODO UAT1.4: User can pass ["bb"], it should return [1]
+- ⚠ TODO UAT1.5: User can pass ["bc"], it should return [0]
+- ⚠ TODO UAT1.6: User can pass ["abc"], it should return [3]
+- ⚠ TODO UAT1.7: User can pass ["abcd"], it should return [4]
+- ⚠ TODO UAT1.8: User can pass ["heyD"], it should return [1]
 
 Story 2: User can pass more words in array, it will return array with number of letters at the same position in the world as they have in the alphabet
-- ⚠ TODO UAT2.1: User can pass ['a','a'], it should return [1,1] 
-- ⚠ TODO UAT2.2: User can pass ['lol','DOC'], it should return [0,1] 
-- ⚠ TODO UAT2.3: User can pass ['ABCD','xox','abode'], it should return [4,0,4] 
+- ⚠ TODO UAT2.1: User can pass ["a","a"], it should return [1,1] 
+- ⚠ TODO UAT2.2: User can pass ["lol","DOC"], it should return [0,1] 
+- ⚠ TODO UAT2.3: User can pass ["ABCD","xox","abode"], it should return [4,0,4] 
 
 Story 3: User can pass wrong inputs, it should thrown an exception
 - ⚠ TODO UAT3.1: User can pass [], it should return an exception
 - ⚠ TODO UAT3.2: User can pass null, it should return an exception
-- ⚠ TODO UAT3.3: User can pass ['',' '], it should return an exception
+- ⚠ TODO UAT3.3: User can pass [""," "], it should return an exception
