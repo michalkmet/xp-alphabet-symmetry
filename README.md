@@ -35,4 +35,3 @@ Story 3: User can pass wrong inputs, it should thrown an exception
 - ✅ DONE UAT3.1: User can pass [], it should return an exception
 - ✅ DONE UAT3.2: User can pass null, it should return an exception
 - ✅ DONE UAT3.3: User can pass [""," "], it should return [0, 0]
-- 
