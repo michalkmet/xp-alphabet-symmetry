@@ -33,5 +33,5 @@ Pomodoro 2:
 - ✅ UAT2.2: User can pass ["lol","DOC"], it should return [0,1] 
 - ✅ UAT2.3: User can pass ["ABCD","xox","abode"], it should return [4,0,4]
 - ✅ UAT3.1: User can pass [], it should return an exception
-- ⚠ TODO UAT3.2: User can pass null, it should return an exception
+- ✅ UAT3.2: User can pass null, it should return an exception
 - ⚠ TODO UAT3.3: User can pass [""," "], it should return an exception
