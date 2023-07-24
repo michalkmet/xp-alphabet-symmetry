@@ -38,3 +38,9 @@ describe('Story2', () => {
     expect(alphabetSymmetry(['ABCD', 'xox', 'abode'])).toStrictEqual([4, 0, 4]);
   });
 });
+
+describe('Story3', () => {
+  it('UAT3.1: User can pass [], it should return an exception', () => {
+    expect(() => alphabetSymmetry([])).toThrow('Wrong input');
+  });
+});
