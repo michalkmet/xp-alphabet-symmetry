@@ -34,4 +34,7 @@ describe('Story2', () => {
   it('UAT2.2: User can pass ["lol","DOC"], it should return [0,1]', () => {
     expect(alphabetSymmetry(['lol', 'DOC'])).toStrictEqual([0, 1]);
   });
+  it('UAT2.3: User can pass ["ABCD","xox","abode"], it should return [4,0,4]', () => {
+    expect(alphabetSymmetry(['ABCD', 'xox', 'abode'])).toStrictEqual([4, 0, 4]);
+  });
 });
