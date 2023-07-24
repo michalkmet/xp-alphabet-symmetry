@@ -17,14 +17,14 @@ Input will consist of alphabet characters, both uppercase and lowercase. No spac
 ## Backlog
 
 Story 1: User can pass one word in array, it will return number of letters at the same position in the world as they have in the alphabet 
-- ⚠ TODO UAT1.1: User can pass ["a"], it should return [1] 
-- ⚠ TODO UAT1.2: User can pass ["b"], it should return [0] 
-- ⚠ TODO UAT1.3: User can pass ["ab"], it should return [2] 
-- ⚠ TODO UAT1.4: User can pass ["bb"], it should return [1]
-- ⚠ TODO UAT1.5: User can pass ["bc"], it should return [0]
-- ⚠ TODO UAT1.6: User can pass ["abc"], it should return [3]
-- ⚠ TODO UAT1.7: User can pass ["abcd"], it should return [4]
-- ⚠ TODO UAT1.8: User can pass ["heyD"], it should return [1]
+- ✅ DONE UAT1.1: User can pass ["a"], it should return [1] 
+- ✅ DONE UAT1.2: User can pass ["b"], it should return [0] 
+- ✅ DONE UAT1.3: User can pass ["ab"], it should return [2] 
+- ✅ DONE UAT1.4: User can pass ["bb"], it should return [1]
+- ✅ DONE UAT1.5: User can pass ["bc"], it should return [0]
+- ✅ DONE UAT1.6: User can pass ["abc"], it should return [3]
+- ✅ DONE UAT1.7: User can pass ["abcd"], it should return [4]
+- ✅ DONE UAT1.8: User can pass ["heyD"], it should return [1]
 
 Story 2: User can pass more words in array, it will return array with number of letters at the same position in the world as they have in the alphabet
 - ⚠ TODO UAT2.1: User can pass ["a","a"], it should return [1,1] 

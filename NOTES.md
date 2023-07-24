@@ -29,3 +29,6 @@ Pomodoro 2:
 - ✅ UAT1.6: User can pass ["abc"], it should return [3]
 - ✅ UAT1.7: User can pass ["abcd"], it should return [4]
 - ✅ UAT1.8: User can pass ["heyD"], it should return [1]
+- ✅ UAT2.1: User can pass ["a","a"], it should return [1,1] 
+- ⚠ TODO UAT2.2: User can pass ["lol","DOC"], it should return [0,1] 
+- ⚠ TODO UAT2.3: User can pass ["ABCD","xox","abode"], it should return [4,0,4] 
