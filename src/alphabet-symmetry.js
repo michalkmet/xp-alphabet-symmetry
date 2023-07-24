@@ -5,7 +5,7 @@ function alphabetSymmetry(words) {
     // console.log('char: ', char);
     alphabet.map((alphabetLetter, alphabetIndex) => {
       // console.log('alphabetLetter: ', alphabetLetter);
-      if (char === alphabetLetter && index === alphabetIndex) {
+      if (char.toLowerCase() === alphabetLetter.toLowerCase() && index === alphabetIndex) {
         counter++;
       }
     });
