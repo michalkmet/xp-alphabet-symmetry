@@ -46,4 +46,7 @@ describe('Story3', () => {
   it('UAT3.2: User can pass null, it should return an exception', () => {
     expect(() => alphabetSymmetry(null)).toThrow('Wrong input');
   });
+  it('UAT3.3: User can pass [""," "], it should return an exception', () => {
+    expect(alphabetSymmetry(['', ' '])).toStrictEqual([0, 0]);
+  });
 });

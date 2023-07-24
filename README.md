@@ -27,11 +27,12 @@ Story 1: User can pass one word in array, it will return number of letters at th
 - ✅ DONE UAT1.8: User can pass ["heyD"], it should return [1]
 
 Story 2: User can pass more words in array, it will return array with number of letters at the same position in the world as they have in the alphabet
-- ⚠ TODO UAT2.1: User can pass ["a","a"], it should return [1,1] 
-- ⚠ TODO UAT2.2: User can pass ["lol","DOC"], it should return [0,1] 
-- ⚠ TODO UAT2.3: User can pass ["ABCD","xox","abode"], it should return [4,0,4] 
+- ✅ DONE UAT2.1: User can pass ["a","a"], it should return [1,1] 
+- ✅ DONE UAT2.2: User can pass ["lol","DOC"], it should return [0,1] 
+- ✅ DONE UAT2.3: User can pass ["ABCD","xox","abode"], it should return [4,0,4] 
 
 Story 3: User can pass wrong inputs, it should thrown an exception
-- ⚠ TODO UAT3.1: User can pass [], it should return an exception
-- ⚠ TODO UAT3.2: User can pass null, it should return an exception
-- ⚠ TODO UAT3.3: User can pass [""," "], it should return an exception
+- ✅ DONE UAT3.1: User can pass [], it should return an exception
+- ✅ DONE UAT3.2: User can pass null, it should return an exception
+- ✅ DONE UAT3.3: User can pass [""," "], it should return [0, 0]
+- 
